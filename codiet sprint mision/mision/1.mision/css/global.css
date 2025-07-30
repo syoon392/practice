@@ -1,0 +1,9 @@
+/* fontarea */
+.head .panda span{font-size: 25.63px; font-weight: 700; line-height: 35px; min-width: 103px; color: #3692ff; text-align: center;}
+
+
+.intro span{color: #3692ff; font-size: 18px; font-weight: 800; line-height: 26px;}
+.intro strong, .foot .foot-wrap p{font-size: 40px; font-weight: 700; line-height: 56px;}
+.intro p{font-size: 24px; font-weight: 500; line-height: 32px;}
+.foot-copyright:nth-child(1){color: #9ca3af; min-width: 112px;}
+.foot-copyright li:nth-child(2){color: #e5e7eb;}
