@@ -1,0 +1,106 @@
+@import url(./reset.css);
+
+/* 컬러변수 */
+:root {
+  --white: #fff;
+  --yellow: #ffc;
+  --pink: rgb(236, 161, 173);
+  --sky: skyblue;
+  --orange: rgb(247, 179, 52);
+  --green: rgb(118, 221, 118);
+  --gray: #767676;
+  --lightGray: #bbb;
+  --deepGray: #454545;
+}
+
+body {
+  background-color: #fff;
+  margin: 0;
+}
+
+.wrap {
+  width: 92vw;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/* 헤더 */
+header {
+  background-color: var(--sky);
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* 스크롤 상관없이 위치 고정해주세요 */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.section1 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.section1 aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 400px;
+  background-color: var(--orange);
+  /* 스크롤시 따라오게 고정해주세요 */
+  position: sticky;
+  top: 100px;
+}
+
+.contents {
+  width: calc(100% - 250px);
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+  grid-template-rows: repeat(3 , 1fr);
+}
+
+.contents .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contents .box:nth-child(2n) {
+  background-color: var(--gray);
+}
+
+.contents .box:nth-child(2n + 1) {
+  background-color: var(--lightGray);
+}
+.contents .box:first-child,
+.contents .box:last-child {
+  background-color: var(--deepGray);
+}
+.box1{grid-column:span 3;}
+.box6{grid-column:span 2;}
+
+.section2 {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--yellow);
+}
+
+/* 푸터 */
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: var(--pink);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
