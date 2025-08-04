@@ -1,0 +1,15 @@
+/* fontarea */
+.head .panda span{font-size: 25.63px; font-weight: 700; line-height: 35px; min-width: 103px; color: #3692ff; text-align: center;}
+
+/* palette */
+
+
+.intro span{color: #3692ff; font-size: 18px; font-weight: 800; line-height: 26px;}
+.intro strong, .foot .foot-wrap p{font-size: 40px; font-weight: 700; line-height: 56px;}
+.intro p{font-size: 24px; font-weight: 500; line-height: 32px;}
+.foot-copyright:nth-child(1){color: #9ca3af; min-width: 112px;}
+.foot-copyright li:nth-child(2){color: #e5e7eb;}
+header{position: sticky; top: 0; left: 0; background-color: #ffffff; border-bottom: 1px solid #dfdfdf;}
+
+/* 로그인 페이지 그로벌 영역 */
+.login_contsize{max-width: 640px; margin: 0 auto; padding-top: 250px;}
